@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="play" module="gzip" revision="0.1" status="release" publication="20120411120000" default="true"/>
+    <configurations>
+        <conf name="default" visibility="public"/>
+    </configurations>
+    <publications>
+        <artifact name="gzip" type="jar" ext="zip" conf="default"/>
+    </publications>
+    <dependencies>
+        <dependency org="play" name="play" rev="1.2.4" revConstraint="[1.2.0,)" conf="default->*"/>
+        <dependency org="play" name="scala" rev="0.9.1" conf="default->*"/>
+    </dependencies>
+</ivy-module>
