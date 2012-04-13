@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <groupId>play</groupId>
+    <groupId>play-gzip</groupId>
     <artifactId>gzip</artifactId>
     <version>0.1</version>
     <versioning>
